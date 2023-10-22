@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>MessagingGateway</PackageId>
+    <Version>1.0.0</Version>
+    <Title>MessagingGateway</Title>
+    <Authors>RMartirosian2212</Authors>
+    <Company>RMartirosian2212</Company>
+    <Description>Service for sending messages to various platforms to a phone number or email.</Description>
+    <Product>MessagingGateway</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SendGrid" Version="9.28.1" />
+    <PackageReference Include="Twilio" Version="6.14.1" />
+  </ItemGroup>
+
+</Project>

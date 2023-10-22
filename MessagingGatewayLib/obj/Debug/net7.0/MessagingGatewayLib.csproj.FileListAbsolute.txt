@@ -1,0 +1,12 @@
+C:\Users\rmart\source\repos\MessagingGatewayLib\MessagingGatewayLib\bin\Debug\net7.0\MessagingGatewayLib.deps.json
+C:\Users\rmart\source\repos\MessagingGatewayLib\MessagingGatewayLib\bin\Debug\net7.0\MessagingGatewayLib.dll
+C:\Users\rmart\source\repos\MessagingGatewayLib\MessagingGatewayLib\bin\Debug\net7.0\MessagingGatewayLib.pdb
+C:\Users\rmart\source\repos\MessagingGatewayLib\MessagingGatewayLib\obj\Debug\net7.0\MessagingGatewayLib.csproj.AssemblyReference.cache
+C:\Users\rmart\source\repos\MessagingGatewayLib\MessagingGatewayLib\obj\Debug\net7.0\MessagingGatewayLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rmart\source\repos\MessagingGatewayLib\MessagingGatewayLib\obj\Debug\net7.0\MessagingGatewayLib.AssemblyInfoInputs.cache
+C:\Users\rmart\source\repos\MessagingGatewayLib\MessagingGatewayLib\obj\Debug\net7.0\MessagingGatewayLib.AssemblyInfo.cs
+C:\Users\rmart\source\repos\MessagingGatewayLib\MessagingGatewayLib\obj\Debug\net7.0\MessagingGatewayLib.csproj.CoreCompileInputs.cache
+C:\Users\rmart\source\repos\MessagingGatewayLib\MessagingGatewayLib\obj\Debug\net7.0\MessagingGatewayLib.dll
+C:\Users\rmart\source\repos\MessagingGatewayLib\MessagingGatewayLib\obj\Debug\net7.0\refint\MessagingGatewayLib.dll
+C:\Users\rmart\source\repos\MessagingGatewayLib\MessagingGatewayLib\obj\Debug\net7.0\MessagingGatewayLib.pdb
+C:\Users\rmart\source\repos\MessagingGatewayLib\MessagingGatewayLib\obj\Debug\net7.0\ref\MessagingGatewayLib.dll
