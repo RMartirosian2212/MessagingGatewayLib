@@ -1,6 +1,10 @@
 ﻿
 
 using MessagingGatewayLib.Models;
+using MessagingGatewayLib.Services;
+using MessagingGatewayLib.Settings;
+using Microsoft.Extensions.Logging;
+using Moq;
 
 namespace MessagingGateway.Tests
 {
@@ -9,52 +13,43 @@ namespace MessagingGateway.Tests
         [Fact]
         public async Task TestSendMessage_Succeeds()
         {
-            try
-            {
-                var messagingService = new MessagingService(
-                    "ACCOUNT_SID",
-                    "AUTH_TOKEN",
-                    "PHONE_NUMBER"
-                    );
-                var message = new Message
-                {
-                    Recipient = "[RECIPIENT]",
-                    Content = "[MESSAGE]"
-                };
+            var logger = new Mock<ILogger<MessagingService>>();
 
-                bool result = await messagingService.SendMessageAsync(message);
-
-                Assert.True(result);
-            }
-            catch (Exception ex)
+            MessagingOptions options = new MessagingOptions()
             {
-                Console.WriteLine($"Error in TestSendMessage_Succeeds: {ex.Message}");
-                throw;
-            }
+                AccountSid = "[ACCOUNT_SID]",
+                AuthToken = "[AUTH_TOKEN]",
+                PhoneNumber = "[PHONE_NUMBER]"
+            };
+            MessagingService messagingService = new MessagingService(options, logger.Object);
+
+            var message = new Message
+            {
+                Recipient = "[RECIPIENT]",
+                Content = "[MESSAGE]"
+            };
+
+            var result = await messagingService.SendMessageAsync(message);
+            Assert.True(result);
         }
         [Fact]
         public async Task TestSendMail_Succeeds()
         {
-            try
+            var logger = new Mock<ILogger<MailService>>();
+            MailOptions mailOptions = new MailOptions() 
+            { 
+                ApiKey = "API_KEY",
+                MailAdress = "[MAIL_ADRESS]"
+            };
+            var mailService = new MailService(mailOptions, logger.Object);
+            var mail = new Mail()
             {
-                var mailService = new MailService(
-                    "[API_KEY]",
-                    "[MAIL_ADRESS]");
-                var mail = new Mail()
-                {
-                    Recipient = "[RECIPIENT]",
-                    Subject = "[MESSAGE]",
-                    Content = "[MESSAGE]"
-                };
-                bool result = await mailService.SendMailAsync(mail);
-                Assert.True(result);
-
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error in TestSendMessage_Succeeds: {ex.Message}");
-                throw;
-            }
+                Recipient = "[RECIPIENT]",
+                Subject = "[MESSAGE]",
+                Content = "[MESSAGE]"
+            };
+            bool result = await mailService.SendMailAsync(mail);
+            Assert.True(result);
         }
 
     }

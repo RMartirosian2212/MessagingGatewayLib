@@ -108,3 +108,16 @@ C:\Users\rmart\source\repos\MessagingGatewayLib\MessagingGateway.Tests\obj\Debug
 C:\Users\rmart\source\repos\MessagingGatewayLib\MessagingGateway.Tests\obj\Debug\net7.0\ref\MessagingGateway.Tests.dll
 C:\Users\rmart\source\repos\MessagingGatewayLib\MessagingGateway.Tests\bin\Debug\net7.0\SendGrid.dll
 C:\Users\rmart\source\repos\MessagingGatewayLib\MessagingGateway.Tests\bin\Debug\net7.0\StarkbankEcdsa.dll
+C:\Users\rmart\source\repos\MessagingGatewayLib\MessagingGateway.Tests\bin\Debug\net7.0\Castle.Core.dll
+C:\Users\rmart\source\repos\MessagingGatewayLib\MessagingGateway.Tests\bin\Debug\net7.0\FluentValidation.dll
+C:\Users\rmart\source\repos\MessagingGatewayLib\MessagingGateway.Tests\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\rmart\source\repos\MessagingGatewayLib\MessagingGateway.Tests\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\rmart\source\repos\MessagingGatewayLib\MessagingGateway.Tests\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\rmart\source\repos\MessagingGatewayLib\MessagingGateway.Tests\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
+C:\Users\rmart\source\repos\MessagingGatewayLib\MessagingGateway.Tests\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\rmart\source\repos\MessagingGatewayLib\MessagingGateway.Tests\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\rmart\source\repos\MessagingGatewayLib\MessagingGateway.Tests\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+C:\Users\rmart\source\repos\MessagingGatewayLib\MessagingGateway.Tests\bin\Debug\net7.0\Moq.dll
+C:\Users\rmart\source\repos\MessagingGatewayLib\MessagingGateway.Tests\bin\Debug\net7.0\System.Diagnostics.EventLog.dll
+C:\Users\rmart\source\repos\MessagingGatewayLib\MessagingGateway.Tests\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\rmart\source\repos\MessagingGatewayLib\MessagingGateway.Tests\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll

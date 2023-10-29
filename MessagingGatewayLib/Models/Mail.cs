@@ -9,8 +9,8 @@ namespace MessagingGatewayLib.Models
 {
     public class Mail
     {
-        public string Recipient { get; set; }
-        public string Subject { get; set; }
-        public string Content { get; set; }
+        public string Recipient { get; init; }
+        public string Subject { get; init; }
+        public string Content { get; init; }
     }
 }
